@@ -1,0 +1,28 @@
+{
+  "name": "simple-agentic-ai-app",
+  "version": "1.0.0",
+  "description": "Simple TypeScript app to test chatting with an agentic AI (uses ReAct pattern)",
+  "main": "dist/ai-agent.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/ai-agent.js",
+    "dev": "ts-node src/ai-agent.ts",
+    "build:run": "npm run build && npm start"
+  },
+  "keywords": [
+    "ollama",
+    "typescript",
+    "llm",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
