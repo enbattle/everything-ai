@@ -1,0 +1,28 @@
+{
+  "name": "llm-local",
+  "version": "1.0.0",
+  "description": "Simple TypeScript app to test LLM (Ollama with model) locally",
+  "main": "dist/llm.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/llm.js",
+    "dev": "ts-node src/llm.ts",
+    "build:run": "npm run build && npm start"
+  },
+  "keywords": [
+    "ollama",
+    "typescript",
+    "llm",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
